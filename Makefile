@@ -1,4 +1,4 @@
-VERSION?=6.4
+VERSION?=7.0
 
 build:
 	docker build . -t barrywalker/prog8:$(VERSION) --build-arg VERSION=$(VERSION)
